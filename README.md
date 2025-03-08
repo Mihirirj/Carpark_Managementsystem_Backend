@@ -1,7 +1,7 @@
 # Car Park System  
 
 ## Description  
-The Car Park System is a Node.js-based application designed to manage parking reservations, track available spots, and facilitate secure user authentication. It integrates MySQL for data storage and includes automated tasks using node-cron. The system also supports email notifications via node-mailer and ensures secure transactions with an integrated PayHere payment gateway for seamless online payments  
+The Car Park System is a Node.js based application with a React.js frontend, designed to manage parking reservations, track available spots, and facilitate secure user authentication. It integrates MySQL for data storage and includes automated tasks using Node-Cron. The system also supports email notifications via Node-Mailer and ensures secure transactions with an integrated PayHere payment gateway for seamless online payments. 
 
 ## Features  
 - User Authentication: Secure login and signup with JWT-based authentication.
@@ -13,7 +13,8 @@ The Car Park System is a Node.js-based application designed to manage parking re
 - Payment System: Integrated PayHere payment gateway for secure and seamless online transactions
 
 ## Tech Stack  
-- Backend: Node.js, Express  
+- Backend: Node.js, Express
+- Frontend: React.js
 - Database: MySQL  
 - Security: JWT, Crypto-JS  
 - Utilities: Axios, Node-Cron, Node-Mailer  
